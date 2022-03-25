@@ -1,6 +1,6 @@
 # backend-discussions
 
-# Task 1
+# Task 1:
 1. Create 
 
         * Model 1(Student)
@@ -22,3 +22,6 @@
     2. Create app called Student.
     3. Install rest-framework
     4. Install DjangoFilterBackend
+
+
+# Task 2:
