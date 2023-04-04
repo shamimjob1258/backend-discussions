@@ -15,6 +15,8 @@
 2. Use model viewset to create apis
 3. Write api to add data to student model
 4. Add filter functionality using DjangoFilterBackend
+5. Use serilizer for the apis.
+6. on the details api of the student get all mark details
 
 
 # Task 1 instructions:
@@ -25,3 +27,4 @@
 
 
 # Task 2:
+   1. Use serilizer for the apis
