@@ -25,7 +25,7 @@
 
 
 # Task 2:
-Model: Transaction 
+* Model: Transaction 
        invoice amount: float 
        due_date: datetime
        intersest_rate: float 
@@ -34,7 +34,7 @@ Model: Transaction
        accepted_date: datetime
 
 
-Model: CreditFeedback:
+* Model: CreditFeedback:
     intersest_rate: float 
     processsing_fee: float 
 
