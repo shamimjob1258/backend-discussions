@@ -15,18 +15,18 @@
 
 Task2:
 
-Model: Transaction 
-       invoice amount: float 
-       due_date: datetime
-       intersest_rate: float 
-       processsing_fee: float
-       status: choise field [SUBMITTED, ACCEPTED]
-       accepted_date: datetime
+       Model: Transaction 
+              invoice amount: float 
+              due_date: datetime
+              intersest_rate: float 
+              processsing_fee: float
+              status: choise field [SUBMITTED, ACCEPTED]
+              accepted_date: datetime
 
 
-Model: CreditFeedback:
-    intersest_rate: float 
-    processsing_fee: float 
+       Model: CreditFeedback:
+           intersest_rate: float 
+           processsing_fee: float 
 
 
   Task 1 :
