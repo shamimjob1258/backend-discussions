@@ -25,4 +25,26 @@
 
 
 # Task 2:
-   1. Use serilizer for the apis
+Model: Transaction 
+       invoice amount: float 
+       due_date: datetime
+       intersest_rate: float 
+       processsing_fee: float
+       status: choise field [SUBMITTED, ACCEPTED]
+       accepted_date: datetime
+
+
+Model: CreditFeedback:
+    intersest_rate: float 
+    processsing_fee: float 
+
+
+  1. Create apis for CreditFeedback and Transaction.
+  2. When transaction is created only get invoice_date and due_date from frontend.
+  3. api to change the status of the transaction
+  3. When Transaction details is api is called.
+      case1:
+            1. Id transaction is SUBMITTED status get the latest intersest_rate and processing_fee 
+               from CreditFeedback in transaction details api
+            2. If Transaction is ACCEPTED status, Transaction details
+                api should return the rates in which the Transaction got approved.
