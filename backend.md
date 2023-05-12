@@ -13,7 +13,7 @@
 2. Write apis to create Student with marks.
 3. api for retriving  student details.
 
-Task2:
+ # Task2:
 
        Model: Transaction 
               invoice amount: float 
@@ -28,8 +28,6 @@ Task2:
            intersest_rate: float 
            processsing_fee: float 
 
-
- # Task 1 :
 
   1. Create apis for CreditFeedback and Transaction.
   2. When transaction is created only get invoice_date and due_date from frontend.
